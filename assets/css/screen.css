@@ -159,7 +159,7 @@ body {
     z-index: 10;
     margin: 0;
     padding: 0;
-    font-size: 3.8rem;
+    font-size: 5em;
     font-weight: 700;
 }
 
@@ -171,10 +171,11 @@ body {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
     opacity: 0.8;
+    text-transform: lowercase;
 }
 
 @media (max-width: 500px) {
@@ -265,6 +266,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     padding: 10px 12px;
     color: #fff;
     opacity: 0.8;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: lowercase;
 }
 
 .nav li a:hover {
@@ -854,7 +858,7 @@ Usage (In Ghost editor):
 .post-full-content h5,
 .post-full-content h6 {
     color: color(var(--darkgrey) l(-5%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .post-full-content h1 {
@@ -872,6 +876,8 @@ Usage (In Ghost editor):
     margin: 0.5em 0 0.2em 0;
     font-size: 3.6rem;
     font-weight: 700;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
 }
 @media (max-width: 500px) {
     .post-full-content h2 {

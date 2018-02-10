@@ -101,7 +101,7 @@ video {
     border: 0;
     font: inherit;
     font-size: 100%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Vollkorn', serif;
     vertical-align: baseline;
 }
 body {
@@ -480,4 +480,9 @@ h6 {
     margin: 1.5em 0 0.5em 0;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+/* Custom Styles */
+p {
+  font-size: 0.9em;
 }
